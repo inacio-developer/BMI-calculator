@@ -1,0 +1,33 @@
+.result__icon {
+    width: 4rem;
+}
+
+.result__good, .result__alert, .result__urgency {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    padding: 3.5rem;
+    border-radius: 50%;
+}
+
+.result__good {
+    background-color: rgba(18, 145, 71, 0.5);
+    border: solid .2rem rgba(18, 145, 71);;
+}
+
+.result__alert {
+    background-color: rgb(233, 233, 93, .5);
+    border: solid .2rem rgb(233, 233, 93);
+}
+
+.result__urgency {
+    background-color: rgba(196, 9, 9, 0.5);
+    border: solid .2rem rgba(196, 9, 9);
+}
+
+.result__text {
+    text-transform: uppercase;
+    font-weight: 800;
+}

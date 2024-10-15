@@ -1,0 +1,69 @@
+@font-face {
+    font-family: MonaSans;
+    src: url(./assets/font/MonaSans-Light.otf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: MonaSans;
+    src: url(./assets/font/MonaSans-Regular.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: MonaSans;
+    src: url(./assets/font/MonaSans-SemiBold.otf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: MonaSans;
+    src: url(./assets/font/MonaSans-Bold.otf);
+    font-weight: 800;
+}
+
+:root {
+    --bg-color: #f5f6fa;
+    --primary-color: #ced6e0;
+    --alternative-color: #f1f2f6;
+    --text-color: #2f3542;
+    --font-family: MonaSans;
+    --font-size: 1.6rem;
+    --text-weight: 400;
+    --h1-size: 2rem;
+    --h1-weight: 800;
+    --btn-color: #f1f2f6;
+    --btn-background-color: #2f3542;
+    --btn-hover: #191c22;
+    --btn-weight: 600;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+footer {
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 1.2rem;
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-weight: var(--h1-weight);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    text-align: center;
+    letter-spacing: .2rem;
+}

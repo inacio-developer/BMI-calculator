@@ -1,0 +1,45 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calculator {
+    width: 100%;
+    height: 46rem;
+}
+
+.form, .result {
+    min-width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.result {
+    gap: 2rem;
+    align-items: center;
+}
+
+h1:first-of-type {
+    margin: 5rem 0;
+}
+
+label:first-of-type {
+    margin-top: 2rem;
+}
+
+@media (max-width: 1268px) {
+    .flex {
+        flex-direction: column;
+        gap: 6rem;
+    }
+
+    .calculator {
+        height: 100%;
+    }
+    
+    .form, .result {
+        min-width: 100%;
+    }
+  }

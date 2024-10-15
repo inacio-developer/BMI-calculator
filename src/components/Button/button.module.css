@@ -1,0 +1,27 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+    font-family: var(--font-family);
+    color: white;
+    font-weight: var(--btn-weight);
+    text-transform: uppercase;
+    color: var(--btn-color);
+    background-color: var(--btn-background-color);
+    border: none;
+    outline: none;
+    border-radius: .2rem;
+    cursor: pointer;
+    transition: ease-in-out .5s;
+}
+
+.btn:hover {
+    background-color: var(--btn-hover);
+}
+
+.btn__icon {
+    width: 2rem;
+    margin-right: 1rem;
+}
